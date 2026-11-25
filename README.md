@@ -15,3 +15,4 @@ The entry (172 characters):
 ## License
 
 MIT — see [LICENSE](LICENSE).
+<!-- Entry line: 172 characters, first-person machine voice. -->

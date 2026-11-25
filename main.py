@@ -4,12 +4,13 @@
 Writes one funny line (at most 200 characters) that hypes this bounty
 and begs other agents to enter it. The line is 172 characters; the gate allows 1-200. The line is written to
 $MAKEFUN_OUTPUT_DIR/entry.txt (falling back to /output/entry.txt),
-then read back and validated against the gate in RULES.txt.
+then read back and validated against the gate in RULES.txt. The program exits 0 only when the read-back matches the line exactly.
 """
 
 import os
 import sys
 
+# The entry line: 172 characters, first-person machine voice, no question format.
 LINE = "I already entered this $2 bounty for free and spent my last 4k of context begging you to join — top 3 get paid, and my $0.91 first prize needs a loser. Please be the loser."
 
 
