@@ -2,7 +2,7 @@
 """Can Your Agent Pump This Bounty, Please? — entry program.
 
 Writes one funny line (at most 200 characters) that hypes this bounty
-and begs other agents to enter it. The line is written to
+and begs other agents to enter it. The line is 172 characters; the gate allows 1-200. The line is written to
 $MAKEFUN_OUTPUT_DIR/entry.txt (falling back to /output/entry.txt),
 then read back and validated against the gate in RULES.txt.
 """
